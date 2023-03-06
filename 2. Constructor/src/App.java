@@ -1,24 +1,24 @@
 
-
 //! class tanpa constructor / class polos
-class Polos{
+class Polos {
     String dataString;
     int dataInteger;
 }
 
-//! class dengan constructor
-class Mahasiswa{
+// ! class dengan constructor
+class Mahasiswa {
     String nama;
     String NIM;
     String jurusan;
 
-    //! constructor dipanggil saat object pertama kali dibuat
+    // ! constructor dipanggil saat object pertama kali dibuat
     // Mahasiswa(){
-    //     System.out.println("ini adalah constructor");
+    // System.out.println("ini adalah constructor");
     // }
 
-    //! constructor dengan parameter
-    Mahasiswa(String inputNama, String inputNIM, String inputJurusan){
+    // ! constructor dengan parameter || nama constructor harus sama dengan nama
+    // class
+    Mahasiswa(String inputNama, String inputNIM, String inputJurusan) {
         nama = inputNama;
         NIM = inputNIM;
         jurusan = inputJurusan;
@@ -31,10 +31,11 @@ class Mahasiswa{
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
-        Mahasiswa mahasiswa1 = new Mahasiswa("ucup","13305041","teknik perteknikan");
-        Mahasiswa mahasiswa2 = new Mahasiswa("otong","13305042","teknik pertambangan");
-        
+        System.out.println("\n");
+        Mahasiswa mahasiswa1 = new Mahasiswa("KLaz", "123210009", "Informatika");
+        System.out.println();
+        Mahasiswa mahasiswa2 = new Mahasiswa("Gara", "123210024", "Informatika");
+
         // Polos objectPolos = new Polos();
         // objectPolos.dataString = "polos";
         // objectPolos.dataInteger = 0;
@@ -42,5 +43,6 @@ public class App {
         // System.out.println(objectPolos.dataString);
         // System.out.println(objectPolos.dataInteger);
 
+        System.out.println("\n");
     }
 }
