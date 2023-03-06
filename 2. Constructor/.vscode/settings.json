@@ -1,8 +1,7 @@
 {
-
-    "editor.fontSize": 20,
-    "terminal.integrated.fontSize": 18,
-    "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "vscode-icons",
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
 }
