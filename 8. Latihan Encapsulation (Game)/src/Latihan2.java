@@ -1,4 +1,3 @@
-package com.tutorial;
 
 class Player {
     private String name;
