@@ -16,12 +16,12 @@ class Data{
         System.out.println(this.doublePrivate);
     }
 
-    // getter
+    //! getter
     public int getIntPrivate(){
         return this.intPrivate;
     }
 
-    // setter
+    //! setter
     public void setDoublePrivate(double value){
         this.doublePrivate = value;
     }
@@ -34,17 +34,17 @@ class Lingkaran{
         this.diameter = diameter;
     }
 
-    // setter
+    //! setter
     public void setJari2(double jari2){
         this.diameter = jari2*2;
     }
 
-    // getter
+    //! getter
     public double getJari2(){
         return this.diameter/2;
     }
 
-    // getter
+    //! getter
     public double getLuas(){
         return 3.14*diameter*diameter/4;
     }
